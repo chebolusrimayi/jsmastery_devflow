@@ -74,11 +74,23 @@
 }
 
 @layer components {
-  .h2-bold {
-    @apply text-2xl font-bold;
-  }
-  
-  .paragraph-regular {
-    @apply text-base leading-normal;
-  }
+  /* Headings */
+  .h1-bold { @apply text-3xl font-bold; }
+  .h2-bold { @apply text-2xl font-bold; }
+  .h3-bold { @apply text-xl font-bold; }
+
+  /* Paragraphs */
+  .paragraph-regular { @apply text-base leading-normal; }
+  .paragraph-medium { @apply text-base font-medium; }
+  .paragraph-semibold { @apply text-base font-semibold; }
+
+  /* Base */
+  .body-regular { @apply text-sm leading-normal; }
+  .body-medium { @apply text-sm font-medium; }
+  .body-semibold { @apply text-sm font-semibold; }
+
+  /* Small */
+  .small-regular { @apply text-xs leading-normal; }
+  .small-medium { @apply text-xs font-medium; }
+  .small-semibold { @apply text-xs font-semibold; }
 }
