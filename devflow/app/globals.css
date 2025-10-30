@@ -72,3 +72,13 @@
     @apply bg-background text-foreground;
   }
 }
+
+@layer components {
+  .h2-bold {
+    @apply text-2xl font-bold;
+  }
+  
+  .paragraph-regular {
+    @apply text-base leading-normal;
+  }
+}
