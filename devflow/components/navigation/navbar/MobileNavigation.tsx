@@ -23,13 +23,13 @@ const MobileNavigation = () => {
 
   if (!mounted) {
     return (
-      <button aria-label="Open menu" className="sm:hidden">
+      <button aria-label="Open menu">
         <Image
           src="/icons/hamburger.svg"
           width={36}
           height={36}
           alt="Menu"
-          className="invert-colors"
+          className="invert brightness-0 dark:invert-0 dark:brightness-100"
           priority
         />
       </button>
@@ -39,13 +39,13 @@ const MobileNavigation = () => {
   return (
     <Sheet>
       <SheetTrigger asChild>
-        <button aria-label="Open menu" className="sm:hidden">
+        <button aria-label="Open menu">
           <Image
             src="/icons/hamburger.svg"
             width={36}
             height={36}
             alt="Menu"
-            className="invert-colors"
+            className="invert brightness-0 dark:invert-0 dark:brightness-100"
             priority
           />
         </button>
