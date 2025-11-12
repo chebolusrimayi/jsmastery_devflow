@@ -2,6 +2,7 @@ import React from 'react';
 import Link from 'next/link';
 import Image from 'next/image';
 import Theme from './theme';
+import MobileNavigation from './MobileNavigation';
 
 const Navbar = () => {
   return (
@@ -27,8 +28,9 @@ const Navbar = () => {
       </div>
 
       {/* Right: Theme Switch */}
-      <div className="flex-1 flex justify-end">
+      <div className="flex-1 flex justify-end items-center gap-5">
         <Theme />
+        <MobileNavigation />
       </div>
     </nav>
   );
